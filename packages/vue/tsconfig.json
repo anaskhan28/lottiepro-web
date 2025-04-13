@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "jsx": "preserve",        
+      "strict": true,
+      "declaration": true,      
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",      
+      "rootDir": "./src",      
+      "lib": ["DOM", "DOM.Iterable", "ESNext"],
+      "types": ["vue", "@vue/runtime-dom"]        
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
