@@ -1,6 +1,34 @@
 {
     "name": "@lottiepro-web/vue",
-    "version": "0.0.1",
+    "version": "1.0.2",
+    "publishConfig": {
+      "access": "public"
+    },
+    "author": "LottiePro",
+    "contributors": [
+      "Anas Khan <khananasatique@gmail.com>"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anaskhan28/lottiepro-web"
+      
+    },
+    
+    "keywords": [
+      "lottie",
+      "vue",
+      "player",
+      "animation",
+      "web",
+      "canvas",
+      "javascript",
+      "thorvg",
+      "lottiepro",
+      "lottieplayer"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/anaskhan28/lottiepro-web",
+    "description": "Lottie Player for Vue by LottiePro",
     "type": "module",
     "main": "./dist/index.cjs",
     "module": "./dist/index.js",
@@ -16,12 +44,12 @@
       "dist"
     ],
     "scripts": {
-      "build": "vite build && vue-tsc --emitDeclarationOnly",
-      "dev": "vite build --watch",
+      "build": "vue-tsc --noEmit && vite build",
+    "dev": "vite build --watch",
       "clean": "rimraf dist"
     },
     "dependencies": {
-      "@lottiepro-web/core": "workspace:*",
+      "@lottiepro-web/core":"^1.0.2",
       "vue": "^3.3.0"
     },
     "devDependencies": {

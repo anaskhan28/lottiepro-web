@@ -1,0 +1,7 @@
+# Exclude development artifacts
+examples/
+src/
+test/
+*.test.*
+tsconfig.json
+vite.config.*

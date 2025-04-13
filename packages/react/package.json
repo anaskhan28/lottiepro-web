@@ -1,6 +1,20 @@
 {
   "name": "@lottiepro-web/react",
-  "version": "0.0.1",
+  "version": "1.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "LottiePro",
+  "contributors": [
+    "Anas Khan <khananasatique@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaskhan28/lottiepro-web"
+    
+  },
+  "homepage": "https://github.com/anaskhan28/lottiepro-web",
+  "description": "Lottie Player for React/Nextjs by LottiePro",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
 "scripts": {
@@ -9,7 +23,7 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@lottiepro-web/core": "workspace:*",
+    "@lottiepro-web/core": "^1.0.2",
     "react": "^18.2.0"
   },
   "peerDependencies": {
@@ -22,8 +36,19 @@
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "lottie",
+    "react",
+    "nextjs",
+    "player",
+    "animation",
+    "web",
+    "canvas",
+    "javascript",
+    "thorvg",
+    "lottiepro",
+    "lottieplayer"
+  ],
+  "license": "MIT",
   "packageManager": "pnpm@10.8.0"
 }

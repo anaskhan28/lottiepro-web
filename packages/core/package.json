@@ -1,7 +1,20 @@
 {
   "name": "@lottiepro-web/core",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "LottiePro",
+  "contributors": [
+    "Anas Khan <khananasatique@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaskhan28/lottiepro-web"
+    
+  },
+  "homepage": "https://github.com/anaskhan28/lottiepro-web",
+  "description": "Lottie Player for Web by LottiePro",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,8 +30,17 @@
     "typescript": "^5.0.4",
     "rimraf": "^5.0.5"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "lottie",
+    "player",
+    "animation",
+    "web",
+    "canvas",
+    "javascript",
+    "thorvg",
+    "lottiepro",
+    "lottieplayer"
+  ],
+  "license": "MIT",
   "packageManager": "pnpm@10.8.0"
 }
