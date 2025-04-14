@@ -7,12 +7,7 @@
   A high-performance, cross-framework Lottie animation solution for React, Vue, and Next.js projects.
 
   ## Demo
-  <p align="center">
-    <video width="500" autoplay muted loop>
-      <source src="https://res.cloudinary.com/anaskhan/video/upload/v1744609059/lottiepro/LottiePro_Player_fpxjl0.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </p>
+![Example1](https://res.cloudinary.com/anaskhan/image/upload/v1744612516/lottiepro/LottiePro_Player_onym1q.gif)
 
   ## Features ✨
 
