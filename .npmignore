@@ -5,3 +5,4 @@ test/
 *.test.*
 tsconfig.json
 vite.config.*
+assets
